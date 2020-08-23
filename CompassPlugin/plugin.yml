@@ -1,0 +1,15 @@
+name: CompassPlugin
+main: com.xdrj.compassPlugin.CompassPlugin
+version: 1.2
+api-version: 1.16
+commands:
+  sethunted:
+    description: Sets all compass targets to specified player.
+    usage: /<command> [player]
+    permission: compassPlugin.op
+    permission-message: You don't have <permission>.
+  givecompass:
+    description: Gives player a compass.
+    usage: /<command>
+    permission: compassPlugin.basic
+    permission-message: You don't have <permission>.
